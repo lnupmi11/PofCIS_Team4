@@ -1,0 +1,4 @@
+General Sum Of Every Amount
+grn - 490
+$ - 325
+eur - 100

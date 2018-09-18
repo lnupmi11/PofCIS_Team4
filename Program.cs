@@ -10,7 +10,15 @@ namespace Task4Currency
     {
         static void Main(string[] args)
         {
+            CurrencyFileReader currencyFileReader = new CurrencyFileReader();
+            CurrencyFileWriter currencyFileWriter = new CurrencyFileWriter();
+            CurrencyTasks currencyTasks = new CurrencyTasks();
 
+            List<Currency> currencies = currencyFileReader.GetCurrenciesListFromFile("currency.txt");
+            currencyTasks.OutputGrivnas(currencies);
+            Dictionary<string, double> keyValuePairs = currencyTasks.CreateDictionaryFromList(currencies);
+            currencyFileWriter.WriteDictionaryToFile(keyValuePairs, "result.txt");
+            Console.ReadLine();
         }
     }
 }

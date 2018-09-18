@@ -10,6 +10,6 @@ namespace Task4Currency
 {
     public interface IReadable
     {
-        void Read(StreamReader sr);
+        void Read(string line);
     }
 }

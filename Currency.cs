@@ -14,9 +14,9 @@ namespace Task4Currency
 
         public double Amount { get; set; }
 
-        public void Read(StreamReader sr)
+        public void Read(string line)
         {
-            var inputData = sr.ReadLine().Split();
+            var inputData = line.Split();
             int amount, temp;
 
             if (Int32.TryParse(inputData[0], out amount) && !Int32.TryParse(inputData[1],out temp))

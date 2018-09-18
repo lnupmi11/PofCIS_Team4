@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Currency.cs" />
+    <Compile Include="CurrencyFileReader.cs" />
+    <Compile Include="CurrencyFileWriter.cs" />
+    <Compile Include="CurrencyTasks.cs" />
     <Compile Include="IReadable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
