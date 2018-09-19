@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3DA8D5A1-EC18-438C-A2F0-62FC6BDFC0E6}</ProjectGuid>
+    <ProjectGuid>{CCB3A2EA-5BD4-4C0D-8749-DF4E10690E52}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Task4Currency</RootNamespace>
     <AssemblyName>Task4Currency</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -44,11 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BL\CurrencyConverter.cs" />
-    <Compile Include="Classes\CurrencyRate.cs" />
-    <Compile Include="Classes\Currency.cs" />
     <Compile Include="BL\CurrencyFileReader.cs" />
     <Compile Include="BL\CurrencyFileWriter.cs" />
     <Compile Include="BL\CurrencyTasks.cs" />
+    <Compile Include="Classes\Currency.cs" />
+    <Compile Include="Classes\CurrencyRate.cs" />
     <Compile Include="Enums\Currencies.cs" />
     <Compile Include="Interfaces\IReadable.cs" />
     <Compile Include="Program.cs" />
@@ -63,11 +62,4 @@
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

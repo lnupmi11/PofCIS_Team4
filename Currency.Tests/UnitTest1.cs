@@ -1,12 +1,8 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Task4Currency;
-using Task4Currency.Enums;
-using Task4Currency.BL;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Task4Currency.Classes;
-using Task4Currency.Interfaces;
+using Task4Currency.Enums;
 
-namespace CurrencyRateUnitTest
+namespace Currency.Tests
 {
     [TestClass]
     public class CurrencyRateUnitTests
