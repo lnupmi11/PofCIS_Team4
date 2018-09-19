@@ -14,11 +14,11 @@ namespace Task4Currency
             CurrencyFileWriter currencyFileWriter = new CurrencyFileWriter();
             CurrencyTasks currencyTasks = new CurrencyTasks();
 
-            List<Currency> currencies = currencyFileReader.GetCurrenciesListFromFile("currency.txt");
+            List<Currency> currencies = currencyFileReader.GetCurrenciesListFromFile("Data\\currency.txt");
             currencyTasks.OutputGrivnas(currencies);
             currencyTasks.OutputConvertedSumToGrivnas(currencies);
             Dictionary<Currencies, decimal> keyValuePairs = currencyTasks.CreateDictionaryFromList(currencies);
-            currencyFileWriter.WriteDictionaryToFile(keyValuePairs, "result.txt");
+            currencyFileWriter.WriteDictionaryToFile(keyValuePairs, "Data\\Result.txt");
             Console.ReadLine();
         }
     }
