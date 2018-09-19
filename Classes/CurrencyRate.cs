@@ -20,7 +20,7 @@ namespace Task4Currency.Classes
             return result;
         }
         
-        private decimal ReturnRate(Currencies currency)
+        public decimal ReturnRate(Currencies currency)
         {
             switch (currency)
             {
