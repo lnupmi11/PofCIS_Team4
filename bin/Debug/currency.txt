@@ -1,1 +1,1 @@
-140 grn,150 grn,175 $,150 $,100 eur,200 grn
+140 Uah,150 Uah,175 Usd,150 Usd,100 Eur,200 Uah

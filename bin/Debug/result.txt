@@ -1,4 +1,4 @@
 General Sum Of Every Amount
-grn - 490
-$ - 325
-eur - 100
+Uah - 490
+Usd - 325
+Eur - 100

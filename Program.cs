@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Task4Currency.BL;
+using Task4Currency.Classes;
+using Task4Currency.Enums;
 
 namespace Task4Currency
 {
@@ -16,7 +16,8 @@ namespace Task4Currency
 
             List<Currency> currencies = currencyFileReader.GetCurrenciesListFromFile("currency.txt");
             currencyTasks.OutputGrivnas(currencies);
-            Dictionary<string, double> keyValuePairs = currencyTasks.CreateDictionaryFromList(currencies);
+            currencyTasks.OutputConvertedSumToGrivnas(currencies);
+            Dictionary<Currencies, decimal> keyValuePairs = currencyTasks.CreateDictionaryFromList(currencies);
             currencyFileWriter.WriteDictionaryToFile(keyValuePairs, "result.txt");
             Console.ReadLine();
         }

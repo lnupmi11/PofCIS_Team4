@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Task4Currency.Classes;
 
-namespace Task4Currency
+namespace Task4Currency.BL
 {
     public class CurrencyFileReader
     {

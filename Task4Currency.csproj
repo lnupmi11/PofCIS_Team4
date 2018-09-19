@@ -43,17 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Currency.cs" />
-    <Compile Include="CurrencyFileReader.cs" />
-    <Compile Include="CurrencyFileWriter.cs" />
-    <Compile Include="CurrencyTasks.cs" />
-    <Compile Include="IReadable.cs" />
+    <Compile Include="BL\CurrencyConverter.cs" />
+    <Compile Include="Classes\CurrencyRate.cs" />
+    <Compile Include="Classes\Currency.cs" />
+    <Compile Include="BL\CurrencyFileReader.cs" />
+    <Compile Include="BL\CurrencyFileWriter.cs" />
+    <Compile Include="BL\CurrencyTasks.cs" />
+    <Compile Include="Enums\Currencies.cs" />
+    <Compile Include="Interfaces\IReadable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

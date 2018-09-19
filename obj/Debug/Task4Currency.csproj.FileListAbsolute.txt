@@ -6,3 +6,10 @@ C:\Users\Andrew\Desktop\task4\PofCIS_Team4\obj\Debug\Task4Currency.csprojResolve
 C:\Users\Andrew\Desktop\task4\PofCIS_Team4\obj\Debug\Task4Currency.csproj.CoreCompileInputs.cache
 C:\Users\Andrew\Desktop\task4\PofCIS_Team4\obj\Debug\Task4Currency.exe
 C:\Users\Andrew\Desktop\task4\PofCIS_Team4\obj\Debug\Task4Currency.pdb
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\bin\Debug\Task4Currency.exe.config
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\bin\Debug\Task4Currency.exe
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\bin\Debug\Task4Currency.pdb
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\obj\Debug\Task4Currency.csprojAssemblyReference.cache
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\obj\Debug\Task4Currency.csproj.CoreCompileInputs.cache
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\obj\Debug\Task4Currency.exe
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\obj\Debug\Task4Currency.pdb
