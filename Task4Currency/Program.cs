@@ -6,9 +6,9 @@ using Task4Currency.Enums;
 
 namespace Task4Currency
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             CurrencyFileReader currencyFileReader = new CurrencyFileReader();
             CurrencyFileWriter currencyFileWriter = new CurrencyFileWriter();

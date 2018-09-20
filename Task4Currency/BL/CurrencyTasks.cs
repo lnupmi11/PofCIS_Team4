@@ -65,7 +65,7 @@ namespace Task4Currency.BL
         public List<Currency> ConvertToAllCurrencies(List<Currency> currencies)
         {
             if (currencies == null)
-                return null;
+                return new List<Currency>();
             
             List<Currency> convertedCurrencies = new List<Currency>();
             var currenciesNames = Enum.GetValues(typeof(Currencies));
