@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Task4Currency.Classes;
@@ -18,13 +19,26 @@ namespace Task4Currency.BL
         public List<Currency> GetCurrenciesListFromFile(string fileName)
         {
             List<Currency> currencies = new List<Currency>();
-            var allData = File.ReadAllText(fileName).Split(',').ToList();
-            allData.ForEach(x =>
+            try
             {
-                Currency currency = new Currency();
-                currency.Read(x);
-                currencies.Add(currency);
-            });
+                var allData = File.ReadAllText(fileName).Split(',').ToList();
+                allData.ForEach(x =>
+                {
+                    Currency currency = new Currency();
+                    currency.Read(x);
+                    currencies.Add(currency);
+                });
+            }
+            catch (FileNotFoundException exception)
+            {
+                Console.WriteLine(
+                    $"Exception occured {exception.Message}. Make sure that file in the path {fileName} exists.");
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine($"Oops! Something went wrong. Exception occured {exception.Message} at {exception.StackTrace}.");
+            }
+
             return currencies;
         }
     }

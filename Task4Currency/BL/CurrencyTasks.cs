@@ -17,7 +17,7 @@ namespace Task4Currency.BL
         /// <param name="currencies">List of currencies.</param>
         public void OutputGrivnas(List<Currency> currencies)
         {
-            currencies.Where(x => x.CurrencyName.Equals(Currencies.Uah)).ToList().ForEach(Console.WriteLine);
+            currencies?.Where(x => x.CurrencyName.Equals(Currencies.Uah)).ToList().ForEach(Console.WriteLine);
         }
 
         /// <summary>
@@ -28,7 +28,7 @@ namespace Task4Currency.BL
         public Dictionary<Currencies,decimal> CreateDictionaryFromList(List<Currency> currencies)
         {
             Dictionary<Currencies, decimal> keyValuePairs = new Dictionary<Currencies, decimal>();
-            currencies.ForEach(x =>
+            currencies?.ForEach(x =>
             {
                 if (keyValuePairs.ContainsKey(x.CurrencyName))
                 {

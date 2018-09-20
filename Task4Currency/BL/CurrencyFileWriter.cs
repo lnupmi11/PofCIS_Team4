@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using Task4Currency.Enums;
@@ -17,14 +18,26 @@ namespace Task4Currency.BL
         /// <param name="fileName">Name of the output file.</param>
         public void WriteCollectionToFile(IEnumerable currencies,string fileName)
         {
-            using (StreamWriter writer = new StreamWriter(fileName))
+            try
             {
-                foreach(var currency in currencies)
+                using (StreamWriter writer = new StreamWriter(fileName))
                 {
-                    writer.WriteLine(currency);
-                }
+                    foreach (var currency in currencies)
+                    {
+                        writer.WriteLine(currency);
+                    }
 
-                writer.Close();
+                    writer.Close();
+                }
+            }
+            catch (DirectoryNotFoundException exception)
+            {
+                Console.WriteLine($"Exception occured: {exception.Message}");
+                Console.WriteLine($"Some folder is missing at the current path: {fileName}. Please make sure that path is valid.");
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine($"Oops! Something went wrong. Exception occured {exception.Message} at {exception.StackTrace}.");
             }
         }
     }

@@ -1,4 +1,5 @@
-﻿using Task4Currency.Enums;
+﻿using System;
+using Task4Currency.Enums;
 
 namespace Task4Currency.Classes
 {
@@ -35,8 +36,24 @@ namespace Task4Currency.Classes
         /// <returns>Amount of converted currency.</returns>
         public decimal Convert(Currencies currencyToConvert, Currency currencyFromConvert)
         {
-            var result = currencyFromConvert.Amount / ReturnRate(currencyFromConvert.CurrencyName) *
-                             ReturnRate(currencyToConvert);
+            decimal result;
+
+            try
+            {
+                result = currencyFromConvert.Amount / ReturnRate(currencyFromConvert.CurrencyName) *
+                         ReturnRate(currencyToConvert);
+
+            }
+            catch (NullReferenceException exception)
+            {
+                Console.WriteLine($"Exception occured {exception.Message}. You can't convert sum of money that is equal to null.");
+                throw;
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine($"Oops! Something went wrong. Exception occured {exception.Message} at {exception.StackTrace}.");
+                throw;
+            }
 
             return result;
         }

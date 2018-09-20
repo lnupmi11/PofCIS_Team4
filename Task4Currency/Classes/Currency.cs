@@ -4,6 +4,7 @@ using Task4Currency.Interfaces;
 
 namespace Task4Currency.Classes
 {
+    /// <inheritdoc />
     /// <summary>
     /// Represents amount of different currencies.
     /// </summary>
@@ -22,10 +23,7 @@ namespace Task4Currency.Classes
         /// <summary>
         /// Constructor without parameters.
         /// </summary>
-        public Currency()
-        {
-            
-        }
+        public Currency() { }
 
         /// <summary>
         /// Constructor with parameters.
@@ -38,19 +36,34 @@ namespace Task4Currency.Classes
             Amount = amount;
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// Reads the string line and converts it into the class data.
         /// </summary>
         /// <param name="line">Line to parse.</param>
         public void Read(string line)
         {
-            var inputData = line.Split();
+            try
+            {
+                var inputData = line.Split();
 
-            if (!decimal.TryParse(inputData[0], out var amount) || !Enum.TryParse(inputData[1], out Currencies currencyName))
-                return;
+                if (!decimal.TryParse(inputData[0], out var amount) ||
+                    !Enum.TryParse(inputData[1], out Currencies currencyName))
+                    return;
 
-            CurrencyName = currencyName;
-            Amount = amount;
+                CurrencyName = currencyName;
+                Amount = amount;
+
+            }
+            catch (NullReferenceException exception)
+            {
+                Console.WriteLine($"Exception occured {exception.Message}. You can't read from string that is equal to null.");
+                throw;
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine($"Oops! Something went wrong. Exception occured {exception.Message} at {exception.StackTrace}.");
+            }
         }
 
         /// <summary>

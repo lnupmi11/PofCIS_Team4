@@ -36,8 +36,8 @@ namespace Task4Currency.BL
         /// <param name="currecyRate">Current currency rate.</param>
         public CurrencyConverter(List<Currency> currencies, CurrencyRate currecyRate)
         {
-            Currencies = currencies;
-            CurrecyRate = currecyRate;
+            Currencies = currencies ?? new List<Currency>();
+            CurrecyRate = currecyRate ?? new CurrencyRate();
         }
 
         /// <summary>
