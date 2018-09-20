@@ -5,11 +5,16 @@ using Task4Currency.Classes;
 
 namespace Task4Currency.BL
 {
+    /// <summary>
+    /// Represents file reader.
+    /// </summary>
     public class CurrencyFileReader
     {
         /// <summary>
-        /// creates list of currencies by reading from file
+        /// Creates list of currencies by reading from file
         /// </summary>
+        /// <param name="fileName">Name of the input file.</param>
+        /// <returns>List of currencies from the file.</returns>
         public List<Currency> GetCurrenciesListFromFile(string fileName)
         {
             List<Currency> currencies = new List<Currency>();

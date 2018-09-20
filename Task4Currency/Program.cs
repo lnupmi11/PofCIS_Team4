@@ -16,9 +16,9 @@ namespace Task4Currency
 
             List<Currency> currencies = currencyFileReader.GetCurrenciesListFromFile("Data\\currency.txt");
             currencyTasks.OutputGrivnas(currencies);
-            currencyTasks.OutputConvertedSumToGrivnas(currencies);
             Dictionary<Currencies, decimal> keyValuePairs = currencyTasks.CreateDictionaryFromList(currencies);
-            currencyFileWriter.WriteDictionaryToFile(keyValuePairs, "Data\\Result.txt");
+            currencyFileWriter.WriteCollectionToFile(keyValuePairs, "Data\\Result.txt");
+            currencyFileWriter.WriteCollectionToFile(currencyTasks.ConvertToAllCurrencies(currencies), "Data\\ResultInOneCurrency.txt");
             Console.ReadLine();
         }
     }
