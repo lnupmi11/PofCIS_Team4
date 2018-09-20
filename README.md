@@ -13,7 +13,7 @@
 
 ## Link To Code Analysis
 
-[Code Analysis on SonarCloud] (https://sonarcloud.io/dashboard?id=PofCIS "Code Analysis Link on SonarCloud")
+[Code Analysis on SonarCloud](https://sonarcloud.io/dashboard?id=PofCIS "Code Analysis Link on SonarCloud")
 
 ## Members:
 * [Andrii Smoliak](https://github.com/SmoliakAndrii "Andrii Smoliak")
