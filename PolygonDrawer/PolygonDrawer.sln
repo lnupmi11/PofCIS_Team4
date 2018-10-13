@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27703.2042
+VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonDrawer", "PolygonDrawer\PolygonDrawer.csproj", "{87EF50B4-FFE5-4F16-A0FA-5CDCFC3905FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonDrawer", "WpfApp\PolygonDrawer.csproj", "{8557705C-A66E-44D8-8D90-18D22A948370}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonDrawer.BL", "PolygonDrawer.BL\PolygonDrawer.BL.csproj", "{7756F7A3-66AD-48B3-B3B6-A16BF67382E3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolugonDrawer.Tests", "PolugonDrawer.Tests\PolugonDrawer.Tests.csproj", "{AEA008CA-D037-4700-8FF9-4034EAA020E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonDrawer.Tests", "PolygonDrawer.Tests\PolygonDrawer.Tests.csproj", "{D6A6BD65-BC6E-4E94-85D9-DCA84FCCB3F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{87EF50B4-FFE5-4F16-A0FA-5CDCFC3905FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87EF50B4-FFE5-4F16-A0FA-5CDCFC3905FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87EF50B4-FFE5-4F16-A0FA-5CDCFC3905FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87EF50B4-FFE5-4F16-A0FA-5CDCFC3905FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7756F7A3-66AD-48B3-B3B6-A16BF67382E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7756F7A3-66AD-48B3-B3B6-A16BF67382E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7756F7A3-66AD-48B3-B3B6-A16BF67382E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7756F7A3-66AD-48B3-B3B6-A16BF67382E3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AEA008CA-D037-4700-8FF9-4034EAA020E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEA008CA-D037-4700-8FF9-4034EAA020E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEA008CA-D037-4700-8FF9-4034EAA020E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEA008CA-D037-4700-8FF9-4034EAA020E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8557705C-A66E-44D8-8D90-18D22A948370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8557705C-A66E-44D8-8D90-18D22A948370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8557705C-A66E-44D8-8D90-18D22A948370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8557705C-A66E-44D8-8D90-18D22A948370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A6BD65-BC6E-4E94-85D9-DCA84FCCB3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A6BD65-BC6E-4E94-85D9-DCA84FCCB3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A6BD65-BC6E-4E94-85D9-DCA84FCCB3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A6BD65-BC6E-4E94-85D9-DCA84FCCB3F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E555CBB8-454E-4125-8A61-505B4D1021E7}
+		SolutionGuid = {2402A0C2-4ECB-4822-B24D-9C5D8C5D6268}
 	EndGlobalSection
 EndGlobal
