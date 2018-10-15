@@ -9,7 +9,7 @@ namespace PolygonDrawer.BL
     /// <summary>
     /// Represents serialization and deserialization of the polygons.
     /// </summary>
-    public class ShapesBl
+    public static class ShapesBl
     {
         /// <summary>
         /// Serialize the list of Polygons.
@@ -40,7 +40,7 @@ namespace PolygonDrawer.BL
 
             if (polygons == null)
             {
-                throw new ApplicationException($"cannot deserialize file {path}");
+                throw new ArgumentException($"Cannot deserialize file {path}");
             }
             
             return polygons;

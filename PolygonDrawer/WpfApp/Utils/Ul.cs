@@ -6,7 +6,7 @@ namespace PolygonDrawer.Utils
     /// <summary>
     /// Represents support methods for interface.
     /// </summary>
-    public class Ul
+    public static class Ul
     {
         #region Information Message 
         private const string InformationMessage = "Загальне :\n" +

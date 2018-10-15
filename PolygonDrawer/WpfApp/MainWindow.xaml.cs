@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Data;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -8,7 +7,6 @@ using System.Windows.Shapes;
 using Microsoft.Win32;
 using PolygonDrawer.BL;
 using PolygonDrawer.Utils;
-using WpfApp;
 
 namespace PolygonDrawer
 {
@@ -80,31 +78,28 @@ namespace PolygonDrawer
 
         private void DrawNewPolygon(object sender, MouseButtonEventArgs e)
         {
-            if (e.ClickCount == 2 && _isDraw == false)
+            if (e.ClickCount == 2 && !_isDraw)
             {
                 CreatePolygon data = new CreatePolygon();
 
-                if (data.ShowDialog() == true)
+                if ((data.ShowDialog() == true) && (int.TryParse(data.NumberOfAngles, out var result) && result >= 3))
                 {
-                    if (int.TryParse(data.NumberOfAngles, out var result) && result >= 3)
+                    _numberOfPolygons++;
+                    _polygon = new Polygon
                     {
-                        _numberOfPolygons++;
-                        _polygon = new Polygon
-                        {
-                            Stroke = Brushes.Black,
-                            Fill = Brushes.LightBlue,
-                            StrokeThickness = result,
-                            HorizontalAlignment = HorizontalAlignment.Left,
-                            VerticalAlignment = VerticalAlignment.Center,
-                            Name = $"Polugon{_numberOfPolygons}"
-                        };
-                        _numberOfVertex = result;
+                        Stroke = Brushes.Black,
+                        Fill = Brushes.LightBlue,
+                        StrokeThickness = result,
+                        HorizontalAlignment = HorizontalAlignment.Left,
+                        VerticalAlignment = VerticalAlignment.Center,
+                        Name = $"Polugon{_numberOfPolygons}"
+                    };
+                    _numberOfVertex = result;
 
-                        _isDraw = true;
+                    _isDraw = true;
 
-                        _polygon.Points = new PointCollection();
-                        _polygonList.Add(_polygon);
-                    }
+                    _polygon.Points = new PointCollection();
+                    _polygonList.Add(_polygon);
                 }
             }
             else if (e.ClickCount == 1 && _isDraw)
