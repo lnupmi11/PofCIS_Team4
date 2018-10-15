@@ -8,10 +8,24 @@ namespace PolygonDrawer
     /// </summary>
     public partial class ChangeColor : Window
     {
+        /// <summary>
+        /// Index of red color.
+        /// </summary>
         public byte RedIndex { get; set; }
+
+        /// <summary>
+        /// Index of green color.
+        /// </summary>
         public byte GreenIndex { get; set; }
+
+        /// <summary>
+        /// Index of blue color.
+        /// </summary>
         public byte BlueIndex { get; set; }
 
+        /// <summary>
+        /// Initialize componets for Change Color Window.
+        /// </summary>
         public ChangeColor()
         {
             InitializeComponent();
@@ -38,3 +52,4 @@ namespace PolygonDrawer
         }
     }
 }
+

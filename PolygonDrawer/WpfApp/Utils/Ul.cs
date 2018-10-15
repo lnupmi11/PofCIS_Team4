@@ -3,9 +3,12 @@ using Microsoft.Win32;
 
 namespace PolygonDrawer.Utils
 {
+    /// <summary>
+    /// Represents support methods for interface.
+    /// </summary>
     public class Ul
     {
-        #region infromation message 
+        #region Information Message 
         private const string InformationMessage = "Загальне :\n" +
                 "\t1) Для того щоб намалювати фігуру, виберіть її\n" +
                 "\tв меню" +
@@ -32,8 +35,10 @@ namespace PolygonDrawer.Utils
 
         #endregion
 
-
-
+        /// <summary>
+        /// Shows information message.
+        /// </summary>
+        /// <returns>Information message.</returns>
         public static MessageBoxResult CreateInformationWindow()
         {
             string caption = "Information box";
@@ -41,6 +46,10 @@ namespace PolygonDrawer.Utils
             return MessageBox.Show(InformationMessage, caption, MessageBoxButton.OK);
         }
 
+        /// <summary>
+        /// Opens save dialog for file saving.
+        /// </summary>
+        /// <returns>Save dialog window.</returns>
         public static SaveFileDialog CreateSaveFile()
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog
@@ -56,6 +65,10 @@ namespace PolygonDrawer.Utils
             return saveFileDialog;
         }
 
+        /// <summary>
+        /// Opens open dialog for file opening.
+        /// </summary>
+        /// <returns>Open dialog window.</returns>
         public static OpenFileDialog CreateOpenFile()
         {
             OpenFileDialog openFileDialog = new OpenFileDialog

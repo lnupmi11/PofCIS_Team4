@@ -24,7 +24,9 @@ namespace PolygonDrawer
         private int _numberOfVertex = 0;
         private int _numberOfPolygons = 0;
 
-
+        /// <summary>
+        /// Initialize componets for Main Window.
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
@@ -138,12 +140,6 @@ namespace PolygonDrawer
 
                 ListOfPolygons.Items.Add(item);
             }
-        }
-
-        private void ChangeColor_Click(object sender, RoutedEventArgs e)
-        {
-            
-
         }
 
         private void ListOfPolygons_SelectionChanged(object sender, SelectionChangedEventArgs e)
