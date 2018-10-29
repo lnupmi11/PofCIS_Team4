@@ -20,7 +20,7 @@
             <MenuItem Header="Exit"  Click="OnClosing"></MenuItem>
         </Menu>
         <Canvas Margin="10,10,182,10" Background="#FFE6E4E4"
-                MouseLeftButtonDown="DrawNewPolygon" Name="cnv" Grid.Row="1"/>
+                MouseLeftButtonDown="DrawNewPolygon" Name="cnv" Grid.Row="1" MouseRightButtonDown="MovePolygon"/>
         <Label Name = "LabelVertex" Content="0" Margin="0,1,49,0" Height="102" Width="83" FontSize="50" FlowDirection="RightToLeft" HorizontalAlignment="Right" VerticalAlignment="Top" HorizontalContentAlignment="Center" Grid.Row="1"/>
         <ListBox Name ="ListOfPolygons" Margin="0,108,10,10" HorizontalAlignment="Right" Width="167" Grid.Row="1" SelectionChanged="ListOfPolygons_SelectionChanged"/>
         <TextBlock HorizontalAlignment="Right" Margin="0,87,123,0" TextWrapping="Wrap" Text="Shapes" Width="54" Height="16" VerticalAlignment="Top" Grid.Row="1"/>

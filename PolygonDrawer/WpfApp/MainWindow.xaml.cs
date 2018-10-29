@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -17,10 +18,12 @@ namespace PolygonDrawer
     {
         private bool _isDraw = false;
         private Polygon _polygon;
+        private Polygon _polygonToMove;
         private List<Polygon> _polygonList = new List<Polygon>();
         private int _currentVertex = 0;
         private int _numberOfVertex = 0;
         private int _numberOfPolygons = 0;
+        private bool _isMove = false;
 
         /// <summary>
         /// Initialize componets for Main Window.
@@ -33,6 +36,10 @@ namespace PolygonDrawer
         private void New(object sender, RoutedEventArgs e)
         {
             cnv.Children.Clear();
+            _polygonList.Clear();
+            ListOfPolygons.Items.Clear();
+            _isMove = false;
+            _isDraw = false;
         }
 
         private void OnClosing(object sender, RoutedEventArgs e)
@@ -151,6 +158,30 @@ namespace PolygonDrawer
                             .Fill
                         = brush;
                 }
+            }
+        }
+
+        private void MovePolygon(object sender, MouseButtonEventArgs e)
+        {
+            if (!_isMove)
+            {
+                _polygonToMove = _polygonList.FirstOrDefault(p => Utils.Geometry.IsInPolygon(p.Points, e.GetPosition(this)) == true);
+                if (_polygonToMove != null)
+                {
+                    _isMove = true;
+                    MessageBox.Show("Please select new position");
+                }
+
+                _polygonList.Remove(_polygonToMove);
+            }
+            else if(_isMove)
+            {
+                cnv.Children.Remove(_polygonToMove);
+                _polygonToMove = ShapesBl.MoveToPoint(_polygonToMove, e.GetPosition(this));
+                _polygonList.Add(_polygonToMove);
+                cnv.Children.Add(_polygonToMove);
+                _isMove = false;
+                _polygonToMove = null;
             }
         }
     }
