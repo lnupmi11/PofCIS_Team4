@@ -13,3 +13,12 @@ D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\
 D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\DataAccess\obj\Debug\DataAccess.dll
 D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\DataAccess\bin\Debug\BusinessLogic.dll
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\DataAccess\bin\Debug\BusinessLogic.pdb
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Dmytro Romaniv\Desktop\PofCIS_Team4\DataAccess\obj\Debug\DataAccess.pdb
