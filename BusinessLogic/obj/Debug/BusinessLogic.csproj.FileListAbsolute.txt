@@ -1,0 +1,10 @@
+D:\Mary\Documents\Visual Studio Projects\DoctorAppointment\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\Mary\Documents\Visual Studio Projects\DoctorAppointment\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\Mary\Documents\Visual Studio Projects\DoctorAppointment\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Mary\Documents\Visual Studio Projects\DoctorAppointment\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\Mary\Documents\Visual Studio Projects\DoctorAppointment\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\BusinessLogic\obj\Debug\BusinessLogic.pdb
