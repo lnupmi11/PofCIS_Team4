@@ -1,0 +1,15 @@
+D:\Mary\Documents\Visual Studio Projects\DoctorAppointment\DataAccess\bin\Debug\DataAccess.dll
+D:\Mary\Documents\Visual Studio Projects\DoctorAppointment\DataAccess\bin\Debug\DataAccess.pdb
+D:\Mary\Documents\Visual Studio Projects\DoctorAppointment\DataAccess\bin\Debug\BusinessLogic.dll
+D:\Mary\Documents\Visual Studio Projects\DoctorAppointment\DataAccess\bin\Debug\BusinessLogic.pdb
+D:\Mary\Documents\Visual Studio Projects\DoctorAppointment\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Mary\Documents\Visual Studio Projects\DoctorAppointment\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\Mary\Documents\Visual Studio Projects\DoctorAppointment\DataAccess\obj\Debug\DataAccess.dll
+D:\Mary\Documents\Visual Studio Projects\DoctorAppointment\DataAccess\obj\Debug\DataAccess.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\DataAccess\bin\Debug\DataAccess.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\DataAccess\bin\Debug\DataAccess.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\DataAccess\bin\Debug\BusinessLogic.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\DataAccess\bin\Debug\BusinessLogic.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\DataAccess\obj\Debug\DataAccess.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\DoctorAppointment\DataAccess\obj\Debug\DataAccess.pdb
