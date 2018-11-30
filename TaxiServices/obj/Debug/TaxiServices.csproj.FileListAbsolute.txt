@@ -1,0 +1,11 @@
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiServices\bin\Debug\TaxiServices.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiServices\bin\Debug\TaxiServices.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiServices\obj\Debug\TaxiServices.csprojResolveAssemblyReference.cache
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiServices\obj\Debug\TaxiServices.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiServices\obj\Debug\TaxiServices.pdb
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiServices\bin\Debug\TaxiServices.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiServices\bin\Debug\TaxiServices.pdb
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiServices\obj\Debug\TaxiServices.csprojResolveAssemblyReference.cache
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiServices\obj\Debug\TaxiServices.csproj.CoreCompileInputs.cache
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiServices\obj\Debug\TaxiServices.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiServices\obj\Debug\TaxiServices.pdb
