@@ -1,0 +1,6 @@
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\Task6\Task6\bin\Debug\Task6.exe.config
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\Task6\Task6\bin\Debug\Task6.exe
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\Task6\Task6\bin\Debug\Task6.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\Task6\Task6\obj\Debug\Task6.csprojResolveAssemblyReference.cache
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\Task6\Task6\obj\Debug\Task6.exe
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\Task6\Task6\obj\Debug\Task6.pdb
