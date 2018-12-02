@@ -7,7 +7,7 @@ namespace Task6
     {
         static void Main(string[] args)
         {
-            var connection = @"Data Source=LENOVO-PC;Initial Catalog=NORTHWND;Integrated Security=True";
+            var connection = @"Data Source=.\sqlexpress;Initial Catalog=NORTHWND;Integrated Security=True";
 
             using (var conn = new SqlConnection(connection))
             {
@@ -24,8 +24,26 @@ namespace Task6
                 Console.WriteLine("Count of Employees from London");
                 Execute(conn, @"
                      SELECT COUNT(*) FROM [Employees] WHERE City = 'London'");
-            }
+                
+                // *** PART 2 ***
 
+                // Task 12
+                Console.WriteLine("Employees, who celebrate birthday this month");
+                Execute(conn, @"
+                        SELECT FirstName, LastName, BirthDate
+                        FROM [Employees]
+                        WHERE month(BirthDate) = month(getdate());
+                        ");
+
+                // Task 13
+                Console.WriteLine("Employees, who serve orders shipped to Madrid");
+                Execute(conn, @"SELECT FirstName, LastName
+                        FROM[Employees] LEFT JOIN[Orders]
+                        ON[Orders].EmployeeID = [Employees].EmployeeID
+                        WHERE [Orders].ShipCity = 'Madrid';");
+
+            }
+     
             
         }
 
