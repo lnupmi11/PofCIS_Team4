@@ -13,8 +13,6 @@ namespace Task6
             {
                 conn.Open();
 
-                // *** PART 1 ***
-
                 // Task 2
                 Console.WriteLine("Employees from London");
                 Execute(conn, @"
@@ -24,8 +22,6 @@ namespace Task6
                 Console.WriteLine("Count of Employees from London");
                 Execute(conn, @"
                      SELECT COUNT(*) FROM [Employees] WHERE City = 'London'");
-                
-                // *** PART 2 ***
 
                 // Task 12
                 Console.WriteLine("Employees, who celebrate birthday this month");
@@ -41,10 +37,23 @@ namespace Task6
                         FROM[Employees] LEFT JOIN[Orders]
                         ON[Orders].EmployeeID = [Employees].EmployeeID
                         WHERE [Orders].ShipCity = 'Madrid';");
+				
+				// Task 24
+                Console.WriteLine("French customers’ names who used to order french products.");
+                Execute(conn, @"
+                        SELECT [Customers].ContactName FROM [Customers] 
+                        INNER JOIN [Orders] ON [Orders].CustomerID = [Customers].CustomerID
+                        WHERE [Orders].ShipCountry = 'France' AND [Customers].Country = 'France';
+                        ");
 
+                // Task 23
+                Console.WriteLine("French customers’ names who used to order non-french products.");
+                Execute(conn, @"
+                        SELECT [Customers].ContactName FROM [Customers] 
+                        INNER JOIN [Orders] ON [Orders].CustomerID = [Customers].CustomerID
+                        WHERE [Orders].ShipCountry != 'France' AND [Customers].Country = 'France';
+                        ");
             }
-     
-            
         }
 
         static void Execute(SqlConnection connection, string sql)
