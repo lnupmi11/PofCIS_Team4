@@ -53,6 +53,35 @@ namespace Task6
                         INNER JOIN [Orders] ON [Orders].CustomerID = [Customers].CustomerID
                         WHERE [Orders].ShipCountry != 'France' AND [Customers].Country = 'France';
                         ");
+		    
+		    // * PART 4 *
+
+                // Task 31
+                Execute(conn, @"
+                            INSERT INTO [Employees] 
+                            (LastName, FirstName, BirthDate, HireDate, Address, 
+                            City, Country, Notes)
+                            VALUES ('Smoliak', 'Andriy', '06.05.1998', '02.12.2017', 'Lyubinska 96/28',
+                            'Lviv', 'Ukraine', 'Some notes about A.Smoliak'),
+                                   ('Hrytsiv', 'Nazar', '01.08.1998', '05.10.2017', 'G.Washyngton 10/3',
+                            'Lviv', 'Ukraine', 'Some notes about N.Hrytsiv'),
+                                   ('Romaniv', 'Dmytro', '06.06.1998', '08.10.2018', 'L.Ukrainky 8',
+                            'Lviv', 'Ukraine', 'Some notes about D.Romaniv'),
+                                   ('Orest', 'Gopiak', '12.13.1997', '09.10.2017', 'Kamenyariv 10',
+                            'Lviv', 'Ukraine', 'Some notes about O.Gopiak'),
+                                   ('Datskiv', 'Oleg', '03.14.1998', '02.12.2016', 'Lyubinska 102/136',
+                            'Lviv', 'Ukraine', 'Some notes about O.Datskiv');
+                            ");
+
+                Console.WriteLine("5 inserted Employees");
+                Execute(conn, @"Select FirstName, LastName, City from [Employees] Where City = 'Lviv'");
+
+                // Task 35
+                Execute(conn, @"
+                        DELETE FROM [Employees] WHERE LastName = 'Datskiv';
+                        ");
+                Console.WriteLine("Recently inserted Employees after delete 1 with LastName 'Datskiv'");
+                Execute(conn, @"Select FirstName, LastName, City from [Employees] Where City = 'Lviv'");
             }
         }
 
