@@ -1,0 +1,72 @@
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\TaxiClient.exe.config
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\TaxiClient.exe
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\TaxiClient.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient.csprojResolveAssemblyReference.cache
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\MainWindow.g.cs
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\App.g.cs
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient_MarkupCompile.cache
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient_MarkupCompile.lref
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\MainWindow.baml
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient.g.resources
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient.Properties.Resources.resources
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient.csproj.GenerateResource.Cache
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient.exe
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\DataAccess.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\System.Windows.Interactivity.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\TaxiServices.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\DataAccess.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\TaxiServices.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.xml
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\App.baml
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\EntityFramework.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\EntityFramework.xml
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\TaxiClient.exe.config
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\TaxiClient.exe
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\TaxiClient.pdb
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\DataAccess.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\TaxiServices.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\EntityFramework.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\DataAccess.pdb
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\DataAccess.dll.config
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\TaxiServices.pdb
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\bin\Debug\EntityFramework.xml
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient.csprojResolveAssemblyReference.cache
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\MainWindow.g.cs
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\App.g.cs
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient_MarkupCompile.cache
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient_MarkupCompile.lref
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\App.baml
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\MainWindow.baml
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient.g.resources
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient.Properties.Resources.resources
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient.csproj.GenerateResource.Cache
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient.csproj.CoreCompileInputs.cache
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient.exe
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\TaxiClient\obj\Debug\TaxiClient.pdb
