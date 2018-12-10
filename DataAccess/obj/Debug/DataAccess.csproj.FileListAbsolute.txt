@@ -1,0 +1,40 @@
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\DataAccess.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\DataAccess.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\TaxiServices.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\TaxiServices.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\DataAccess\obj\Debug\DataAccess.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\DataAccess\obj\Debug\DataAccess.pdb
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\DataAccess.dll.config
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\EntityFramework.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\EntityFramework.xml
+D:\Аня\University\ІІІ year\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\TaxiServices.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\TaxiServices.pdb
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\1\Downloads\I семестр\I семестр\Платформи корп. інф. сис-м\TaxiClient\DataAccess\obj\Debug\DataAccess.pdb
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\bin\Debug\DataAccess.dll.config
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\bin\Debug\DataAccess.dll
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\bin\Debug\DataAccess.pdb
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\bin\Debug\EntityFramework.dll
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\bin\Debug\TaxiServices.dll
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\bin\Debug\TaxiServices.pdb
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\bin\Debug\TaxiServices.dll.config
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\bin\Debug\EntityFramework.xml
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\obj\Debug\DataAccess.dll
+D:\Downloads\TaxiClient\TaxiClient\DataAccess\obj\Debug\DataAccess.pdb
